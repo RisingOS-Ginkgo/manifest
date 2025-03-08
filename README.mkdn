@@ -1,18 +1,6 @@
 <p align="center">
-<img src="https://github.com/RisingTechOSS/android/blob/thirteen/risingOS_banner.png">
+<img src="https://github.com/RisingOS-XTI/manifest/blob/thirteen/risingOS_banner.png">
 </p>
-
-What is RisingOS?
----------------
-risingOS is A FREE OpenSource Aftermarket Android Operating System that aims to bring unique and fresh user experience.
-
-Maintainership
----------------
-Requirements:
-
-1. Device trees must be properly maintained, patches applied to the tree must be either rom source changes adaptation,bug fixes or improvements.
-2. Must have no known issues in his/her current device community.
-3. Approved by the maintainership application form reviewers. Maintainership application form link: https://docs.google.com/forms/d/e/1FAIpQLSdQjt9NvuzEEqxwvEVtGbCaoxaFFLoz7SRr8J1c_-kcn5EQBQ/viewform
  
 Getting Started
 ---------------
@@ -26,12 +14,12 @@ rm -rf external/chromium-webview/prebuilt/*
 rm -rf .repo/projects/external/chromium-webview/prebuilt/*.git
 rm -rf .repo/project-objects/LineageOS/android_external_chromium-webview_prebuilt_*.git
 
-repo init --depth=1 --no-repo-verify -u https://github.com/RisingTechOSS/android -b thirteen --git-lfs -g default,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u https://github.com/RisingOS-XTI/manifest -b thirteen --git-lfs -g default,-mips,-darwin,-notdefault
 ```
 **in case of repo syncing failures try this instead**
 
 ```bash
-repo init -u https://github.com/RisingTechOSS/android -b thirteen --git-lfs
+repo init -u https://github.com/RisingOS-XTI/manifest -b thirteen --git-lfs
 ```
 
 **Sync up with this command:**
