@@ -85,6 +85,7 @@
 
   <!-- Vendor -->
   <project path="vendor/addons" name="RisingOS-XTI/android_vendor_addons" revision="thirteen" />
+  <project path="vendor/gms" namr="saitama-21/android-vendor-gapps" remote="gitlab" revision="thirteen" />
   <project path="vendor/rising-prebuilts" name="RisingOS-XTI/android_vendor_rising-prebuilts" revision="thirteen" />
   <project path="vendor/lineage" name="RisingOS-XTI/android_vendor_rising" revision="thirteen" />
   <project path="vendor/pixel-framework" name="RisingOS-XTI/vendor_pixel-framework" revision="thirteen" />
