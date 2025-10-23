@@ -90,7 +90,7 @@
   <project path="vendor/lineage" name="RisingOS-XTI/android_vendor_rising" revision="thirteen" />
   <project path="vendor/pixel-framework" name="RisingOS-XTI/vendor_pixel-framework" revision="thirteen" />
   <project path="vendor/support" name="RisingOS-XTI/android_vendor_support" revision="thirteen" />
-  <project path="vendor/risingOTA" name="RisingOSS-devices/android_vendor_RisingOTA" revision="thirteen" />
+  <project path="vendor/Update" name="RisingOS-XTI/Update" revision="thirteen" />
 
   <!-- Vendor QCOM-->
   <project path="hardware/qcom-caf/sm8150/display" name="RisingOS-XTI/android_hardware_qcom_display_sm8150" groups="qcom" revision="thirteen" />
