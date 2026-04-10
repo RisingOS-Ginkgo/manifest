@@ -163,4 +163,8 @@
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
+
+  <!-- hw/ximi -->
+  <project path="hardware/xiaomi" name="LineageOS-T/android_hardware_xiaomi" revision="lineage-20" />
+
 </manifest>
